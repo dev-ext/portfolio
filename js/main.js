@@ -60,8 +60,7 @@ function main_fn() {
     console.log('jQuery Runing.');
 // Write Less, Do More
 
-jQuery(".nav a").click(function(event){
-  event.preventDefault();   
+jQuery(".nav a").click(function(){
   var route = jQuery(this).attr('href');
   var state = route;
   var title = route.replace('?state=','')
