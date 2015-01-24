@@ -1,0 +1,33 @@
+/*Global CSS*/
+.alignleft { float: left;}
+.alignright { float: right;}
+.module , .module-row { width: 100%; float: left; }
+img { max-width: 100%; height: auto;}
+
+/* Make sure videos and embeds fit their containers. */
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+/* Override the Twitter embed fixed width. */
+.entry-content .twitter-tweet-rendered {
+	max-width: 100% !important;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+##iconn Sometimes reqired an image for show icon.
+*/
+.iconn { float:left;}
+
+/* Utility class*/
+.hidden2 { display:none;}
+/*
+##End global css
+*/
